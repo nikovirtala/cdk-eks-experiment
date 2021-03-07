@@ -1,10 +1,6 @@
 {
   "dependencies": [
     {
-      "name": "@types/jest",
-      "type": "build"
-    },
-    {
       "name": "@types/node",
       "version": "^10.17.0",
       "type": "build"
@@ -19,7 +15,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.73.0",
+      "version": "^1.92.0",
       "type": "build"
     },
     {
@@ -39,16 +35,11 @@
       "type": "build"
     },
     {
-      "name": "jest",
-      "type": "build"
-    },
-    {
-      "name": "jest-junit",
-      "version": "^12",
-      "type": "build"
-    },
-    {
       "name": "json-schema",
+      "type": "build"
+    },
+    {
+      "name": "prettier",
       "type": "build"
     },
     {
@@ -62,10 +53,6 @@
       "type": "build"
     },
     {
-      "name": "ts-jest",
-      "type": "build"
-    },
-    {
       "name": "ts-node",
       "type": "build"
     },
@@ -75,12 +62,17 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.73.0",
+      "version": "^1.92.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-eks",
+      "version": "^1.92.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.73.0",
+      "version": "^1.92.0",
       "type": "runtime"
     }
   ],

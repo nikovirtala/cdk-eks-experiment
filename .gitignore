@@ -12,15 +12,12 @@
 .nyc_output
 .parcel-cache/
 .yarn-integrity
-/coverage
 /dist
 /lib
-/test-reports/
 build/Release
 cdk.out/
 coverage
 jspm_packages/
-junit.xml
 lerna-debug.log*
 lib-cov
 logs
@@ -32,7 +29,6 @@ yarn-debug.log*
 yarn-error.log*
 !/.eslintrc.json
 !/.github/dependabot.yml
-!/.github/pull_request_template.md
 !/.github/workflows/build.yml
 !/.github/workflows/rebuild-bot.yml
 !/.mergify.yml
@@ -47,6 +43,5 @@ yarn-error.log*
 !/src
 !/test
 !/tsconfig.eslint.json
-!/tsconfig.jest.json
 !/tsconfig.json
 !version.json

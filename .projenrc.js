@@ -1,35 +1,35 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.73.0',
+  cdkVersion: '1.92.0',
   defaultReleaseBranch: 'main',
-  jsiiFqn: "projen.AwsCdkTypeScriptApp",
+  jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'cdk-eks-experiment',
 
   /* AwsCdkTypeScriptAppOptions */
   // appEntrypoint: 'main.ts',                                                 /* The CDK app's entrypoint (relative to the source directory, which is "src" by default). */
-  // cdkDependencies: undefined,                                               /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
+  cdkDependencies: ['@aws-cdk/aws-eks'] /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */,
   // cdkVersionPinning: false,                                                 /* Use pinned version instead of caret version for CDK. */
-  // context: undefined,                                                       /* Additional context to include in `cdk.json`. */
+  context: { '@aws-cdk/core:newStyleStackSynthesis': true } /* Additional context to include in `cdk.json`. */,
   // requireApproval: CdkApprovalLevel.BROADENING,                             /* To protect you against unintended changes that affect your security posture, the AWS CDK Toolkit prompts you to approve security-related changes before deploying them. */
 
   /* NodePackageOptions */
   // allowLibraryDependencies: true,                                           /* Allow the project to include `peerDependencies` and `bundledDependencies`. */
-  // authorEmail: undefined,                                                   /* Author's e-mail. */
-  // authorName: undefined,                                                    /* Author's name. */
+  authorEmail: 'niko.virtala@hey.com' /* Author's e-mail. */,
+  authorName: 'Niko Virtala' /* Author's name. */,
   // authorOrganization: undefined,                                            /* Author's Organization. */
-  // authorUrl: undefined,                                                     /* Author's URL / Website. */
+  authorUrl: 'https://cloudgardener.dev' /* Author's URL / Website. */,
   // autoDetectBin: true,                                                      /* Automatically add all executables under the `bin` directory to your `package.json` file under the `bin` section. */
   // bin: undefined,                                                           /* Binary programs vended with your module. */
   // bundledDeps: undefined,                                                   /* List of dependencies to bundle into this module. */
   // deps: [],                                                                 /* Runtime dependencies of this module. */
   // description: undefined,                                                   /* The description is just a string that helps people understand the purpose of the package. */
-  // devDeps: [],                                                              /* Build dependencies for this module. */
+  devDeps: ['prettier'] /* Build dependencies for this module. */,
   // entrypoint: 'lib/index.js',                                               /* Module entrypoint (`main` in `package.json`). */
   // homepage: undefined,                                                      /* Package's Homepage / Website. */
   // keywords: undefined,                                                      /* Keywords to include in `package.json`. */
-  // license: 'Apache-2.0',                                                    /* License's SPDX identifier. */
-  // licensed: true,                                                           /* Indicates if a license should be added. */
+  license: 'MIT' /* License's SPDX identifier. */,
+  licensed: true /* Indicates if a license should be added. */,
   // maxNodeVersion: undefined,                                                /* Minimum node.js version to require via `engines` (inclusive). */
   // minNodeVersion: undefined,                                                /* Minimum Node.js version to require via package.json `engines` (inclusive). */
   // npmAccess: undefined,                                                     /* Access level of the npm package. */
@@ -41,7 +41,8 @@ const project = new AwsCdkTypeScriptApp({
   // peerDependencyOptions: undefined,                                         /* Options for `peerDeps`. */
   // peerDeps: [],                                                             /* Peer dependencies for this module. */
   // projenCommand: 'npx projen',                                              /* The shell command to use in order to run the projen CLI. */
-  // repository: undefined,                                                    /* The repository is the location where the actual code for your package lives. */
+  repository:
+    'https://github.com/nikovirtala/cdk-eks-experiment.git' /* The repository is the location where the actual code for your package lives. */,
   // repositoryDirectory: undefined,                                           /* If the package.json for your package is not in the root directory (for example if it is part of a monorepo), you can specify the directory in which it lives. */
   // scripts: {},                                                              /* npm scripts to include. */
   // stability: undefined,                                                     /* Package's Stability. */
@@ -50,14 +51,14 @@ const project = new AwsCdkTypeScriptApp({
   // antitamper: true,                                                         /* Checks that after build there are no modified files on git. */
   // artifactsDirectory: 'dist',                                               /* A directory which will contain artifacts to be published to npm. */
   // buildWorkflow: undefined,                                                 /* Define a GitHub workflow for building PRs. */
-  // codeCov: false,                                                           /* Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v1 A secret is required for private repos. Configured with @codeCovTokenSecret. */
+  codeCov: false /* Define a GitHub workflow step for sending code coverage metrics to https://codecov.io/ Uses codecov/codecov-action@v1 A secret is required for private repos. Configured with @codeCovTokenSecret. */,
   // codeCovTokenSecret: undefined,                                            /* Define the secret name for a specified https://codecov.io/ token A secret is required to send coverage for private repositories. */
   // copyrightOwner: undefined,                                                /* License copyright owner. */
   // copyrightPeriod: undefined,                                               /* The copyright years to put in the LICENSE file. */
   // dependabot: true,                                                         /* Include dependabot configuration. */
   // dependabotOptions: undefined,                                             /* Options for dependabot. */
   // gitignore: undefined,                                                     /* Additional entries to .gitignore. */
-  // jest: true,                                                               /* Setup jest unit tests. */
+  jest: false /* Setup jest unit tests. */,
   // jestOptions: undefined,                                                   /* Jest options. */
   // jsiiReleaseVersion: 'latest',                                             /* Version requirement of `jsii-release` which is used to publish modules to npm. */
   // mergify: true,                                                            /* Adds mergify configuration. */
@@ -70,7 +71,7 @@ const project = new AwsCdkTypeScriptApp({
   // projenUpgradeSchedule: [ '0 6 * * *' ],                                   /* Customize the projenUpgrade schedule in cron expression. */
   // projenUpgradeSecret: undefined,                                           /* Periodically submits a pull request for projen upgrades (executes `yarn projen:upgrade`). */
   // projenVersion: Semver.latest(),                                           /* Version of projen to install. */
-  // pullRequestTemplate: true,                                                /* Include a GitHub pull request template. */
+  pullRequestTemplate: false /* Include a GitHub pull request template. */,
   // pullRequestTemplateContents: undefined,                                   /* The contents of the pull request template. */
   // rebuildBot: undefined,                                                    /* Installs a GitHub workflow which is triggered when the comment "@projen rebuild" is added to a pull request. */
   // rebuildBotCommand: 'rebuild',                                             /* The pull request bot command to use in order to trigger a rebuild and commit of the contents of the branch. */
