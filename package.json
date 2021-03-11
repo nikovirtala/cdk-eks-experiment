@@ -24,7 +24,6 @@
   },
   "author": {
     "name": "Niko Virtala",
-    "email": "niko.virtala@hey.com",
     "url": "https://cloudgardener.dev",
     "organization": false
   },
@@ -47,7 +46,10 @@
   "dependencies": {
     "@aws-cdk/assert": "^1.92.0",
     "@aws-cdk/aws-eks": "^1.92.0",
-    "@aws-cdk/core": "^1.92.0"
+    "@aws-cdk/aws-iam": "^1.92.0",
+    "@aws-cdk/aws-lambda": "^1.92.0",
+    "@aws-cdk/core": "^1.92.0",
+    "cdk-triggers": "^0.0.4"
   },
   "bundledDependencies": [],
   "license": "MIT",

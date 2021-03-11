@@ -71,8 +71,22 @@
       "type": "runtime"
     },
     {
+      "name": "@aws-cdk/aws-iam",
+      "version": "^1.92.0",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-cdk/aws-lambda",
+      "version": "^1.92.0",
+      "type": "runtime"
+    },
+    {
       "name": "@aws-cdk/core",
       "version": "^1.92.0",
+      "type": "runtime"
+    },
+    {
+      "name": "cdk-triggers",
       "type": "runtime"
     }
   ],

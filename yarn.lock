@@ -206,7 +206,7 @@
     "@aws-cdk/core" "1.92.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-iam@1.92.0":
+"@aws-cdk/aws-iam@1.92.0", "@aws-cdk/aws-iam@^1.92.0":
   version "1.92.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-iam/-/aws-iam-1.92.0.tgz#0bc0102e67d75e818946935cb9110ac363d35cb8"
   integrity sha512-cO11Ikx5Sjwcn3lunlRTD90JFfz1xS5dYJGVSMmRaEKaBSWK7p3WQsnvakefuNsLPXhORKq8rnLzksaHeJHJuA==
@@ -225,7 +225,7 @@
     "@aws-cdk/cx-api" "1.92.0"
     constructs "^3.2.0"
 
-"@aws-cdk/aws-lambda@1.92.0":
+"@aws-cdk/aws-lambda@1.92.0", "@aws-cdk/aws-lambda@^1.92.0":
   version "1.92.0"
   resolved "https://registry.yarnpkg.com/@aws-cdk/aws-lambda/-/aws-lambda-1.92.0.tgz#6cb8e561c8049e876eb6a11034ac2c4621a3a453"
   integrity sha512-YWNG7Ag2CbA+uybjeWn9JgDeIZPe3MkhCOzdrbTwYOOFobzXgapgSp+f6ZyJf2N0TB3xT4mMroJDGcVIzDsLGA==
@@ -993,6 +993,14 @@ cdk-assets@1.92.0:
     aws-sdk "^2.848.0"
     glob "^7.1.6"
     yargs "^16.2.0"
+
+cdk-triggers@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.4.tgz#f84cbdfae052206411787be94af2a9f91884ba9f"
+  integrity sha512-BBBJwny4NSwLvvyuNFoSpgDPWV7249zdh9ox+h/vpMYvSptcOUCQqmWuj75VQjK7RdPzq75JPh450LKfZ0/D+w==
+  dependencies:
+    "@aws-cdk/aws-lambda" "^1.92.0"
+    "@aws-cdk/core" "^1.92.0"
 
 chalk@^2.0.0, chalk@^2.4.2:
   version "2.4.2"
