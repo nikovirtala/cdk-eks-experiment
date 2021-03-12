@@ -15,7 +15,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.92.0",
+      "version": "^1.93.0",
       "type": "build"
     },
     {
@@ -62,27 +62,27 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.92.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-eks",
-      "version": "^1.92.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-iam",
-      "version": "^1.92.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-lambda",
-      "version": "^1.92.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.92.0",
+      "version": "^1.93.0",
       "type": "runtime"
     },
     {

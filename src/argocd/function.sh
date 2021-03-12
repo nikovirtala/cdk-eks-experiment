@@ -1,15 +1,24 @@
 function handler () {
-  EVENT_DATA=$1
-  echo "$EVENT_DATA" 1>&2;
+  source $LAMBDA_TASK_ROOT/helpers.sh
 
-  echo "update kubeconfig..."
+  logme update kubeconfig
   export KUBECONFIG=/tmp/kubeconfig
-  aws eks update-kubeconfig --name ${cluster_name}  --kubeconfig /tmp/kubeconfig
+  if [[ ! -s /tmp/kubeconfig ]]; then
+    aws eks update-kubeconfig --name ${cluster_name}  --kubeconfig ${KUBECONFIG}
+  fi
 
-  echo "install argocd..."
-  kubectl create namespace argocd
+  # https://argoproj.github.io/argo-cd/getting_started/
+
+  logme install argocd
+  if [[ ! $(kubectl get namespace argocd) ]]; then
+    kubectl create namespace argocd >/dev/null 2>&1
+  fi
+
   kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+  if [[ $? != 0 ]]; then
+    logme installation failed!
+    return 1
+  fi
 
-  RESPONSE="Echoing request: '$EVENT_DATA'"
-  echo $RESPONSE
+  logme done!
 }

@@ -8,6 +8,7 @@ RUN yum install -y awscli && \
 COPY ./bootstrap /var/runtime/bootstrap
 RUN chmod +x /var/runtime/bootstrap
 
+COPY ./helpers.sh /var/task/helpers.sh
 COPY ./function.sh /var/task/function.sh
 RUN chmod +x /var/task/function.sh
 

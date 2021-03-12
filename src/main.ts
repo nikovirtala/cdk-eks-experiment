@@ -51,7 +51,7 @@ export class MyStack extends Stack {
 }
 
 const devEnv = {
-  account: '013651410059',
+  account: '613455550379',
   region: 'eu-west-1',
 };
 
