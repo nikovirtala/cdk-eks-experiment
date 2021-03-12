@@ -14,6 +14,9 @@ export class MyStack extends Stack {
       version: eks.KubernetesVersion.V1_19,
     });
 
+    // add oidc / service account
+    cluster.addServiceAccount('service-account');
+
     // install vpc cni eks add-on
     new eks.CfnAddon(this, 'vpc-cni', {
       addonName: 'vpc-cni',
