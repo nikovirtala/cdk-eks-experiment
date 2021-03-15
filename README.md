@@ -7,6 +7,7 @@ Currently deploys:
 - EKS Control Plane
 - [VPC CNI](https://docs.aws.amazon.com/eks/latest/userguide/pod-networking.html) as [EKS add-on](https://aws.amazon.com/blogs/containers/introducing-amazon-eks-add-ons/)
 - [Argo CD](https://argoproj.github.io/argo-cd/) – using Bash in Lambda and CDK Triggers :)
+- [AWS Load Balancer Controller](https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html)
 
 ⚠️ Always under construction. You probably shouldn't try to implement these concepts as is in the production.
 
@@ -25,3 +26,9 @@ Currently deploys:
 
 - https://docs.aws.amazon.com/lambda/latest/dg/runtimes-walkthrough.html
 - https://docs.aws.amazon.com/lambda/latest/dg/runtimes-images.html
+
+
+### AWS Load Balancer Controller
+
+- https://docs.aws.amazon.com/eks/latest/userguide/aws-load-balancer-controller.html
+- https://github.com/kubernetes-sigs/aws-load-balancer-controller
