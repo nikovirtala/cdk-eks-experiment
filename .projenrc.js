@@ -1,7 +1,7 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.97.0',
+  cdkVersion: '1.105.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'cdk-eks-experiment',
@@ -18,7 +18,7 @@ const project = new AwsCdkTypeScriptApp({
   jest: false,
   pullRequestTemplate: false,
   buildWorkflow: true,
-  dependabot: true,
+  dependabot: false,
   mergify: true,
   defaultReleaseBranch: 'main',
 });
