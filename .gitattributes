@@ -7,7 +7,6 @@
 /.mergify.yml                              	linguist-generated
 /.npmignore                                	linguist-generated
 /.projen/                                  	linguist-generated
-/.versionrc.json                           	linguist-generated
 /cdk.json                                  	linguist-generated
 /LICENSE                                   	linguist-generated
 /package.json                              	linguist-generated
