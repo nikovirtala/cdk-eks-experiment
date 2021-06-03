@@ -12,8 +12,6 @@
 .nyc_output
 .parcel-cache/
 .yarn-integrity
-/.changelog.tmp.md
-/.version.tmp.json
 /dist
 /lib
 build/Release
@@ -38,7 +36,6 @@ yarn-error.log*
 !/.projen/deps.json
 !/.projen/tasks.json
 !/.projenrc.js
-!/.versionrc.json
 !/LICENSE
 !/cdk.json
 !/package.json
