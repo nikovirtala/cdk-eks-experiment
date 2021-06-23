@@ -15,7 +15,7 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.107.0",
+      "version": "^1.109.0",
       "type": "build"
     },
     {
@@ -44,17 +44,11 @@
       "type": "build"
     },
     {
-      "name": "npm-check-updates",
-      "version": "^11",
-      "type": "build"
-    },
-    {
       "name": "prettier",
       "type": "build"
     },
     {
       "name": "projen",
-      "version": "^0.20.11",
       "type": "build"
     },
     {
@@ -68,27 +62,27 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.107.0",
+      "version": "^1.109.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-eks",
-      "version": "^1.107.0",
+      "version": "^1.109.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-iam",
-      "version": "^1.107.0",
+      "version": "^1.109.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-lambda",
-      "version": "^1.107.0",
+      "version": "^1.109.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.107.0",
+      "version": "^1.109.0",
       "type": "runtime"
     },
     {
