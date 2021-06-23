@@ -31,7 +31,7 @@
     "@types/node": "^10.17.0",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
-    "aws-cdk": "^1.107.0",
+    "aws-cdk": "^1.109.0",
     "eslint": "^7.29.0",
     "eslint-import-resolver-node": "^0.3.4",
     "eslint-import-resolver-typescript": "^2.4.0",
@@ -39,17 +39,17 @@
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
     "prettier": "^2.3.1",
-    "projen": "^0.20.11",
+    "projen": "^0.24.12",
     "ts-node": "^9",
     "typescript": "^4.3.4"
   },
   "dependencies": {
-    "@aws-cdk/assert": "^1.107.0",
-    "@aws-cdk/aws-eks": "^1.107.0",
-    "@aws-cdk/aws-iam": "^1.107.0",
-    "@aws-cdk/aws-lambda": "^1.107.0",
-    "@aws-cdk/core": "^1.107.0",
-    "cdk-triggers": "^0.0.39"
+    "@aws-cdk/assert": "^1.109.0",
+    "@aws-cdk/aws-eks": "^1.109.0",
+    "@aws-cdk/aws-iam": "^1.109.0",
+    "@aws-cdk/aws-lambda": "^1.109.0",
+    "@aws-cdk/core": "^1.109.0",
+    "cdk-triggers": "^0.0.40"
   },
   "bundledDependencies": [],
   "license": "MIT",
