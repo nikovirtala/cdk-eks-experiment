@@ -1152,10 +1152,10 @@ cdk-assets@1.111.0:
     mime "^2.5.2"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.47:
-  version "0.0.47"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.47.tgz#43423ce79874cc74bff4931977ae6b736318e9a3"
-  integrity sha512-es9iFDr3JlzlsIa6N527J7KOHEDcJp2hEMSfcazVYuFRKjhHIR2ZLfKF0JCQgmLvGj2KIyDETm+8/gqPpUK6WQ==
+cdk-triggers@^0.0.49:
+  version "0.0.49"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.49.tgz#480fcb9beaa5c156894c652cdacc62c11da784e3"
+  integrity sha512-orI/+5fPWY2DollyR3lAf1b0nDlJdAta0SX54D0dzbptB40JmI7Moyj2V007liFd8pW+xiyHFgeXDd1T7R1Wrg==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -1321,9 +1321,9 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
 constructs@^3.3.69:
-  version "3.3.94"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.94.tgz#f3192073a3b8e60192e133f0da3dd1fb8fbadde8"
-  integrity sha512-P2Sfaa+CHt6lVlIdSry4hj1cQsg71J7eXJm9zyPpZNi/FDeHu/vcOmon84v8effvBoF5e7ef2tfVCwwMXcu9Jw==
+  version "3.3.96"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-3.3.96.tgz#3053b8e9c01c833823e060d4c12480cebe91d9b3"
+  integrity sha512-2M0Vz6NgSByYey5Qtp1MkjkeMxKvswX1u4BNBKGJGHHna+jS4TZA8z7s1/F/cy11Opt+2TBpIsZhUvEBDjCIZw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
