@@ -49,7 +49,7 @@
     "@aws-cdk/aws-iam": "^1.109.0",
     "@aws-cdk/aws-lambda": "^1.109.0",
     "@aws-cdk/core": "^1.109.0",
-    "cdk-triggers": "^0.0.49"
+    "cdk-triggers": "^0.0.50"
   },
   "bundledDependencies": [],
   "license": "MIT",
