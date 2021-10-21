@@ -1,7 +1,7 @@
 const { AwsCdkTypeScriptApp } = require('projen');
 
 const project = new AwsCdkTypeScriptApp({
-  cdkVersion: '1.109.0',
+  cdkVersion: '1.128.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'cdk-eks-experiment',
@@ -12,6 +12,21 @@ const project = new AwsCdkTypeScriptApp({
   authorUrl: 'https://cloudgardener.dev',
   authorEmail: 'niko.virtala@hey.com',
   devDeps: ['prettier'],
+  depsUpgradeOptions: {
+    ignoreProjen: false,
+    workflowOptions: {
+      labels: ['auto-approve', 'auto-merge'],
+      secret: 'AUTOMATION_TOKEN',
+    },
+  },
+  autoApproveOptions: {
+    secret: 'GITHUB_TOKEN',
+    allowedUsernames: ['nikovirtala'],
+  },
+  eslint: true,
+  eslintOptions: {
+    prettier: true,
+  },
   license: 'MIT',
   licensed: true,
   repository: 'https://github.com/nikovirtala/cdk-eks-experiment.git',

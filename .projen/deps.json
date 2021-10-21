@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@types/node",
-      "version": "^10.17.0",
+      "version": "^14.17.0",
       "type": "build"
     },
     {
@@ -15,11 +15,15 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.109.0",
+      "version": "^1.128.0",
       "type": "build"
     },
     {
       "name": "eslint",
+      "type": "build"
+    },
+    {
+      "name": "eslint-config-prettier",
       "type": "build"
     },
     {
@@ -32,6 +36,10 @@
     },
     {
       "name": "eslint-plugin-import",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-prettier",
       "type": "build"
     },
     {
@@ -62,27 +70,27 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.109.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-eks",
-      "version": "^1.109.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-iam",
-      "version": "^1.109.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/aws-lambda",
-      "version": "^1.109.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
       "name": "@aws-cdk/core",
-      "version": "^1.109.0",
+      "version": "^1.128.0",
       "type": "runtime"
     },
     {
