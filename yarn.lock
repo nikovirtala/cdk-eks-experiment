@@ -1006,9 +1006,9 @@ aws-cdk@^1.128.0:
     yargs "^16.2.0"
 
 aws-sdk@^2.848.0, aws-sdk@^2.979.0:
-  version "2.1014.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1014.0.tgz#b08bf963bee7256dd08a275f89fe5f1b67a735ba"
-  integrity sha512-QqxCSJ0egEUaI9gnYNybCdSCtP1HvgzInYo/MuOalXp+7cOuxG5OoN3KAjIEw6JmH2IiB9NGSKJZY6D0F4hJoQ==
+  version "2.1015.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1015.0.tgz#fc69c0620a34c1d77173123769fbc725d867b3cc"
+  integrity sha512-jSM955n08r+kzCMMhOu1Dbua8SRZQKgGO1nAoUwBSlXjnLtN+F81P93h4yNBtWsxUg1mAMTP3DKJjXFFrRToPw==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -1195,10 +1195,10 @@ cdk-assets@1.129.0:
     mime "^2.5.2"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.147:
-  version "0.0.147"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.147.tgz#440808fdef9f3a05d27ecd0054fd6649d6b47f0f"
-  integrity sha512-zdIzxK2pr4Mui7W3jbwrEkKqJSNtmD42yRvSoMh42oFdZdJN7v6nDW5MwMDA0+9xqytSTXAiQgudUFOnXzjzgg==
+cdk-triggers@^0.0.148:
+  version "0.0.148"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.148.tgz#2a9c62d4f8b628f799357020247b568a08ccdc2c"
+  integrity sha512-Q2IOxani1/LSvRZ4QLOW1es7ZihvfSAceZp+yVSuofB1C0zQ6semcz21YDdSlhvKQa3G66RMcPksakYdjURySA==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -3541,10 +3541,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.31.12:
-  version "0.31.12"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.31.12.tgz#854015af1d7bb2b842720d0e2e42eaa4d70b39bc"
-  integrity sha512-PLmf58kjUblEBXnGbAQBDl+KHJMQg5lAPHAYwjBjzXkPXTlzDU6wWh8e8b4kWnoUQGGQ+LJOvWOmE1F7NKN5gQ==
+projen@^0.31.13:
+  version "0.31.13"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.31.13.tgz#c963139f6abe3ca2a14f9f40b4a5b52ef8eacdcf"
+  integrity sha512-NAaeC3DG2ucmTqn0fevqma2U/JQJZKaQGczJ/gBsEdyt7NlppSHA3g5BRS9chet25EkDoZxNy6bDgCXg80UdLA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     chalk "^4.1.2"
