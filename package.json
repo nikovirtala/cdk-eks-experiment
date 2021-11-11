@@ -36,12 +36,12 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.33.2",
+    "projen": "^0.33.3",
     "ts-node": "^9",
     "typescript": "^4.4.4"
   },
@@ -51,7 +51,7 @@
     "@aws-cdk/aws-iam": "^1.128.0",
     "@aws-cdk/aws-lambda": "^1.128.0",
     "@aws-cdk/core": "^1.128.0",
-    "cdk-triggers": "^0.0.162"
+    "cdk-triggers": "^0.0.163"
   },
   "bundledDependencies": [],
   "license": "MIT",
