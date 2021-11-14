@@ -806,9 +806,9 @@ ajv@^6.10.0, ajv@^6.12.3, ajv@^6.12.4:
     uri-js "^4.2.2"
 
 ajv@^8.0.1:
-  version "8.7.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.7.1.tgz#52be6f1736b076074798124293618f132ad07a7e"
-  integrity sha512-gPpOObTO1QjbnN1sVMjJcp1TF9nggMfO4MBR5uQl6ZVTOaEPq5i4oq/6R9q2alMMPB3eg53wFv1RuJBLuxf3Hw==
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.8.0.tgz#c501f10df72914bb77a458919e79fc73e4a2f9ef"
+  integrity sha512-L+cJ/+pkdICMueKR6wIx3VP2fjIx3yAhuvadUv/osv9yFD7OVZy442xFF+Oeu3ZvmhBGQzoF6mTSt+LUWBmGQg==
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
@@ -1213,10 +1213,10 @@ cdk-assets@1.132.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.165:
-  version "0.0.165"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.165.tgz#1bf843cef509843843052709e4a94b8addf9ab77"
-  integrity sha512-UFRsEORyg/i+3l5lfv7AyXNTc1Cuy8PHlarJizh1MLItQ7k1x5Bo0t4UuAnKYhyqJZZO0O3EFjMRx21vOEBbBQ==
+cdk-triggers@^0.0.166:
+  version "0.0.166"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.166.tgz#e1031ac668df87811f5ea560fa588dbf3f644822"
+  integrity sha512-4GLux8rXUgxmaG8QVfr2POtH2lnqhzAkEKjrTMY6/oZKELpwQP1NpgL0n9QXGK7AAKxW815pCOm4BWGYt9egPg==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -3581,10 +3581,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.33.6:
-  version "0.33.6"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.33.6.tgz#aa4c9ecb6056e48d7bfa8630019d768ea4a4b5d8"
-  integrity sha512-sOag392YgKgraF1x0zipvHIA1osTxs5CpFoehmHw6fmaWgn+Wrt3SgPziQhIh3iP4CTRUHFF/Gc9u2uB6sKOWQ==
+projen@^0.33.7:
+  version "0.33.7"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.33.7.tgz#60547d9a0bbc882f475222a88dee2ee538c89b9d"
+  integrity sha512-VuJkH6+5m9iiyEXPHAMe0GcqHbQrcQPQp/vg154NGoMny+aIss03smcrYq8VowNbxLOiWzvYLHnIOTlcK5TyaQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
