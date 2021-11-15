@@ -1213,10 +1213,10 @@ cdk-assets@1.132.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.166:
-  version "0.0.166"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.166.tgz#e1031ac668df87811f5ea560fa588dbf3f644822"
-  integrity sha512-4GLux8rXUgxmaG8QVfr2POtH2lnqhzAkEKjrTMY6/oZKELpwQP1NpgL0n9QXGK7AAKxW815pCOm4BWGYt9egPg==
+cdk-triggers@^0.0.167:
+  version "0.0.167"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.167.tgz#7849b8444a385a1158389ab240142454a457aac5"
+  integrity sha512-tSNCDkcJFxTBYry/4UqZhotOILWh+haU9rrKl/GpK64vpO8da55gTCAgbrnUaCDceLiz+FXjRTfXU5mgGxhZYw==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -3581,10 +3581,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.33.7:
-  version "0.33.7"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.33.7.tgz#60547d9a0bbc882f475222a88dee2ee538c89b9d"
-  integrity sha512-VuJkH6+5m9iiyEXPHAMe0GcqHbQrcQPQp/vg154NGoMny+aIss03smcrYq8VowNbxLOiWzvYLHnIOTlcK5TyaQ==
+projen@^0.33.8:
+  version "0.33.8"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.33.8.tgz#cbc5e2aaba6b56213bae9f3a9f3988e5942a6ae4"
+  integrity sha512-oSMWSFOm/gxr7uBE6AW82Is6HgalSDp4eplt9uxk1n/SEnAlAPUWDKHOi5UIBXEoFtfU9ou4fapeHfyVfEbqOA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
