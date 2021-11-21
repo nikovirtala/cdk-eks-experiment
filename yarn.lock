@@ -1214,10 +1214,10 @@ cdk-assets@1.133.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.172:
-  version "0.0.172"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.172.tgz#3a067fdebce842068a162a9a9a75aea6dbc35665"
-  integrity sha512-E+cNNkvymRz9ZatnwjGxWWVoRh63LZyJ6tdv7OfjYBSym67Bwldh1GTp7Q3RXCR4e/mgwdCJPRhNzMOfZ4lMiw==
+cdk-triggers@^0.0.173:
+  version "0.0.173"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.173.tgz#2dda680bf3c728006d8a27b4753e895011aa1aca"
+  integrity sha512-QqI7WonQCg4BbT9XAPLiC1w/+U/5GZKfphpZmBZnIJ67cfiMjCIXAZZjLym5oYh4jLQI0lE6vejbftxyYG1Vmg==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -3583,10 +3583,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.34.10:
-  version "0.34.10"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.34.10.tgz#5ab73f3a683dee4b85e49a78997ae7d0325690a4"
-  integrity sha512-jdOvATVXQXCoprHp5sZLrNjO9eVuA3mIcj3PvsrR59l1jQDsd5O4Iuba3VV3Q50KEqciU7YtX/UV+c3NPLt/Cw==
+projen@^0.34.12:
+  version "0.34.12"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.34.12.tgz#35bc8bdbcc498fdfb41f89e0517b9a6009b6151b"
+  integrity sha512-Yagiq79ZC0p1RpHkc68KEidtneHpvn+yzrBK40QShlJ78vQZ2pzK/FN+f0kwoCk0F1OY2TKpGmqtWpe7/daCuA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -4270,9 +4270,9 @@ ts-node@^9:
     yn "3.1.1"
 
 tsconfig-paths@^3.11.0, tsconfig-paths@^3.9.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.11.0.tgz#954c1fe973da6339c78e06b03ce2e48810b65f36"
-  integrity sha512-7ecdYDnIdmv639mmDwslG6KQg1Z9STTz1j7Gcz0xa+nshh/gKDAHcPxRbWOsA3SPp0tXP2leTcY9Kw+NAkfZzA==
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.12.0.tgz#19769aca6ee8f6a1a341e38c8fa45dd9fb18899b"
+  integrity sha512-e5adrnOYT6zqVnWqZu7i/BQ3BnhzvGbjEjejFXO20lKIKpwTaupkCPgEfv4GZK1IBciJUEhYs3J3p75FdaTFVg==
   dependencies:
     "@types/json5" "^0.0.29"
     json5 "^1.0.1"
