@@ -807,9 +807,9 @@ ajv@^6.10.0, ajv@^6.12.3, ajv@^6.12.4:
     uri-js "^4.2.2"
 
 ajv@^8.0.1:
-  version "8.8.1"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.8.1.tgz#e73dd88eeb4b10bbcd82bee136e6fbe801664d18"
-  integrity sha512-6CiMNDrzv0ZR916u2T+iRunnD60uWmNn8SkdB44/6stVORUg0aAkWO7PkOhpCmjmW8f2I/G/xnowD66fxGyQJg==
+  version "8.8.2"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-8.8.2.tgz#01b4fef2007a28bf75f0b7fc009f62679de4abbb"
+  integrity sha512-x9VuX+R/jcFj1DHo/fCp99esgGDWiHENrKxaCENuCxpoMCmAt/COCGVDwA7kleEpEzJjDnvh3yGoOuLu0Dtllw==
   dependencies:
     fast-deep-equal "^3.1.1"
     json-schema-traverse "^1.0.0"
@@ -1214,10 +1214,10 @@ cdk-assets@1.133.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.173:
-  version "0.0.173"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.173.tgz#2dda680bf3c728006d8a27b4753e895011aa1aca"
-  integrity sha512-QqI7WonQCg4BbT9XAPLiC1w/+U/5GZKfphpZmBZnIJ67cfiMjCIXAZZjLym5oYh4jLQI0lE6vejbftxyYG1Vmg==
+cdk-triggers@^0.0.174:
+  version "0.0.174"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.174.tgz#4061c26809a908f9141d378a358c563be3f0c53f"
+  integrity sha512-VBKLrwAKU6eHHiKcLrurfkp3v0lXpkD7pmtfhweCKZHrBujPkxdBOwUOA818ZkM8L97kJBog+50I8Yp4JL8NCg==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
