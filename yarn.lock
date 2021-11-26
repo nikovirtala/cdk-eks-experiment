@@ -1214,10 +1214,10 @@ cdk-assets@1.134.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.177:
-  version "0.0.177"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.177.tgz#80af444735690728a4b8c89ade6de8bbb174238d"
-  integrity sha512-Xhbnq9xNtGbp+ONqJOW/55FnZ+x7wDo4mtRtenAYcl/PB3C5383XVBaVuTFIVsLDijiFS/EAFl1kY9WatEwV0w==
+cdk-triggers@^0.0.178:
+  version "0.0.178"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.178.tgz#9a65b85e3b6f123ef9dc716790ed87a6fec05980"
+  integrity sha512-jl5RfrvWmXXPwt+JzKDdZKtKR6MwSTOcXaVdI2xojQL1kx+FpMWvvC2DDrzsabKvxJvbpJ3feS6RHC4uLer1xw==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -3563,10 +3563,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
-  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
+prettier@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.5.0.tgz#a6370e2d4594e093270419d9cc47f7670488f893"
+  integrity sha512-FM/zAKgWTxj40rH03VxzIPdXmj39SwSjwG0heUcNFwI+EMZJnY93yAiKXM3dObIKAM5TA88werc8T/EwhB45eg==
 
 printj@~1.1.0:
   version "1.1.2"
@@ -3583,10 +3583,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.34.18:
-  version "0.34.18"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.34.18.tgz#a703e5e7fd18edc165b557f225d6de756dd7c947"
-  integrity sha512-Kkw0ZZ2zleEyMhVpS0qu2FY+UQ3gjviFtb6w9vXRerr56J9fmiBYyUHx3wxB08ZZacyiKgsv6UCWHySfK7Ml/A==
+projen@^0.34.20:
+  version "0.34.20"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.34.20.tgz#e82860e54e4cd080452dbc5b47049246a75271d4"
+  integrity sha512-UoQLpHfkm0gFZicMRado+k5oBiPXWyKrLxa0ITa9SQri6Vdcqbp8PDZE+RxN/VLOYKWcF0wQ1bEs0g/oWjlsxA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
