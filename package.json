@@ -41,7 +41,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.5.0",
-    "projen": "^0.34.24",
+    "projen": "^0.34.26",
     "ts-node": "^9",
     "typescript": "^4.5.2"
   },
@@ -51,7 +51,7 @@
     "@aws-cdk/aws-iam": "^1.128.0",
     "@aws-cdk/aws-lambda": "^1.128.0",
     "@aws-cdk/core": "^1.128.0",
-    "cdk-triggers": "^0.0.181"
+    "cdk-triggers": "^0.0.182"
   },
   "bundledDependencies": [],
   "license": "MIT",
