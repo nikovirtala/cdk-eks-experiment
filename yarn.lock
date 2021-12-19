@@ -1153,10 +1153,10 @@ cdk-assets@1.136.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.194:
-  version "0.0.194"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.194.tgz#b7ef494c64ecbd8e10b24fedd98a81137c046487"
-  integrity sha512-aYAHgGvKfIBcERkhT0DiEFtEuXtxxXcO7LUbPSAz/i24fKjHIOZ12Y31JIzb5J6+DoceQD60JX4qljtq5qknxw==
+cdk-triggers@^0.0.195:
+  version "0.0.195"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.195.tgz#fd03078083c6336e03419e0b1ad1f9ab58821a89"
+  integrity sha512-NZ7cmso/Sk8LbuA/hfFxnbSoXCL+TfG0yAGZeBQp9xokwK5dq+SoK1Znhz1dg9Hl9AMuTrC6J7AxX+aVPKxsdw==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
@@ -3156,9 +3156,9 @@ npmlog@^6.0.0:
     set-blocking "^2.0.0"
 
 object-inspect@^1.11.0, object-inspect@^1.9.0:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.11.1.tgz#d4bd7d7de54b9a75599f59a00bd698c1f1c6549b"
-  integrity sha512-If7BjFlpkzzBeV1cqgT3OSWT3azyoxDGajR+iGnFBfVV2EWyDyWaZZW2ERDjUaY2QM8i5jI3Sj7mhsM4DDAqWA==
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.12.0.tgz#6e2c120e868fd1fd18cb4f18c31741d0d6e776f0"
+  integrity sha512-Ho2z80bVIvJloH+YzRmpZVQe87+qASmBUKZDWgx9cu+KDrX2ZDH/3tMy+gXbZETVGs2M8YdxObOh7XAtim9Y0g==
 
 object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
