@@ -1154,10 +1154,10 @@ cdk-assets@1.137.0:
     mime "^2.6.0"
     yargs "^16.2.0"
 
-cdk-triggers@^0.0.201:
-  version "0.0.201"
-  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.201.tgz#bc39279429a060c550f1148f98c299a7721c33c3"
-  integrity sha512-8E5sdd+mToYgTVRTW0TyV1HxkwNFsTDLDPsMAuIQDMaBoplva8R1ykTq1atGr/+tVhVI2RZ5+R+D/2NoRUZ8NA==
+cdk-triggers@^0.0.202:
+  version "0.0.202"
+  resolved "https://registry.yarnpkg.com/cdk-triggers/-/cdk-triggers-0.0.202.tgz#6169ad449ce84d1242c659e7d9a307f387e6960d"
+  integrity sha512-FVxW4QLuNObu9kgNqUx6PiLAGrLlELmSdMwuo8Kobelwf1zD/yzqnWgE5o7iPTig20I9w+UDRRsFPCz1QbWoOg==
   dependencies:
     "@aws-cdk/aws-lambda" "^1.107.0"
     "@aws-cdk/core" "^1.107.0"
