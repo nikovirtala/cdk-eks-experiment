@@ -18,6 +18,7 @@
     "post-compile": "npx projen post-compile",
     "pre-compile": "npx projen pre-compile",
     "synth": "npx projen synth",
+    "synth:silent": "npx projen synth:silent",
     "test": "npx projen test",
     "upgrade": "npx projen upgrade",
     "watch": "npx projen watch",
@@ -46,7 +47,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.46.3",
+    "projen": "^0.47.7",
     "ts-node": "^9",
     "typescript": "^4.5.4"
   },
@@ -55,7 +56,7 @@
     "@aws-cdk/aws-iam": "^1.136.0",
     "@aws-cdk/aws-lambda": "^1.136.0",
     "@aws-cdk/core": "^1.136.0",
-    "cdk-triggers": "^0.0.202",
+    "cdk-triggers": "^0.0.207",
     "constructs": "^3.2.27"
   },
   "bundledDependencies": [],
