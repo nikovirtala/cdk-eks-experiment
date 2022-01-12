@@ -16,6 +16,7 @@
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
+    "post-upgrade": "npx projen post-upgrade",
     "pre-compile": "npx projen pre-compile",
     "synth": "npx projen synth",
     "synth:silent": "npx projen synth:silent",
@@ -47,7 +48,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.50.18",
+    "projen": "^0.50.24",
     "ts-node": "^9",
     "typescript": "^4.5.4"
   },
@@ -56,7 +57,7 @@
     "@aws-cdk/aws-iam": "^1.136.0",
     "@aws-cdk/aws-lambda": "^1.136.0",
     "@aws-cdk/core": "^1.136.0",
-    "cdk-triggers": "^0.0.217",
+    "cdk-triggers": "^0.0.219",
     "constructs": "^3.2.27"
   },
   "license": "MIT",
