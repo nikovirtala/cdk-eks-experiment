@@ -1,13 +1,13 @@
 const { awscdk } = require('projen');
 
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: '1.136.0',
+  cdkVersion: '2.12.0',
   defaultReleaseBranch: 'main',
   jsiiFqn: 'projen.AwsCdkTypeScriptApp',
   name: 'cdk-eks-experiment',
-  cdkDependencies: ['@aws-cdk/aws-eks', '@aws-cdk/aws-iam', '@aws-cdk/aws-lambda'],
+  // cdkDependencies: ['@aws-cdk/aws-eks', '@aws-cdk/aws-iam', '@aws-cdk/aws-lambda'],
   deps: ['cdk-triggers'],
-  context: { '@aws-cdk/core:newStyleStackSynthesis': true, 'aws-cdk:enableDiffNoFail': true },
+  // context: { '@aws-cdk/core:newStyleStackSynthesis': true, 'aws-cdk:enableDiffNoFail': true },
   authorName: 'Niko Virtala',
   authorUrl: 'https://cloudgardener.dev',
   authorEmail: 'niko.virtala@hey.com',
