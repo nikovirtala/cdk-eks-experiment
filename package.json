@@ -13,6 +13,7 @@
     "deploy": "npx projen deploy",
     "destroy": "npx projen destroy",
     "diff": "npx projen diff",
+    "eject": "npx projen eject",
     "eslint": "npx projen eslint",
     "package": "npx projen package",
     "post-compile": "npx projen post-compile",
@@ -32,13 +33,11 @@
     "organization": false
   },
   "devDependencies": {
-    "@aws-cdk/assert": "^1.136.0",
-    "@aws-cdk/assertions": "^1.136.0",
     "@types/node": "^12",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk": "^1.136.0",
-    "esbuild": "^0.14.11",
+    "aws-cdk": "^2.12.0",
+    "esbuild": "^0.14.21",
     "eslint": "^8",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.6",
@@ -48,17 +47,14 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.50.28",
+    "projen": "^0.52.24",
     "ts-node": "^9",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@aws-cdk/aws-eks": "^1.136.0",
-    "@aws-cdk/aws-iam": "^1.136.0",
-    "@aws-cdk/aws-lambda": "^1.136.0",
-    "@aws-cdk/core": "^1.136.0",
-    "cdk-triggers": "^0.0.220",
-    "constructs": "^3.2.27"
+    "aws-cdk-lib": "^2.12.0",
+    "cdk-triggers": "^0.1.26",
+    "constructs": "^10.0.5"
   },
   "license": "MIT",
   "version": "0.0.0",

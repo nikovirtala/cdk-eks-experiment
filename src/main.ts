@@ -1,10 +1,11 @@
 import { readFileSync } from 'fs';
 import * as path from 'path';
-import * as eks from '@aws-cdk/aws-eks';
-import * as iam from '@aws-cdk/aws-iam';
-import * as lambda from '@aws-cdk/aws-lambda';
-import { App, CfnJson, Construct, Duration, Stack, StackProps } from '@aws-cdk/core';
+import { App, CfnJson, Duration, Stack, StackProps } from 'aws-cdk-lib';
+import * as eks from 'aws-cdk-lib/aws-eks';
+import * as iam from 'aws-cdk-lib/aws-iam';
+import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as triggers from 'cdk-triggers';
+import { Construct } from 'constructs';
 
 export class MyStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps = {}) {
