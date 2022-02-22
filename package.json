@@ -47,13 +47,13 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.52.39",
+    "projen": "^0.52.42",
     "ts-node": "^9",
     "typescript": "^4.5.5"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.12.0",
-    "cdk-triggers": "^0.1.32",
+    "cdk-triggers": "^0.1.33",
     "constructs": "^10.0.5"
   },
   "license": "MIT",
